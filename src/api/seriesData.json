@@ -1,0 +1,48 @@
+[
+    {
+        "id":1,
+      "img_url": "dune.jpeg",
+      "name": "Dune: Part Two",
+      "country": "USA",
+      "genre": "Sci-Fi",
+      "ratings": 4.7,
+      "movie_url": "https://www.imdb.com/title/tt15239678/"
+    },
+    {
+        "id":2,
+      "img_url": "barbie.jpeg",
+      "name": "Barbie",
+      "country": "USA",
+      "genre": "Comedy",
+      "ratings": 4.5,
+      "movie_url": "https://www.imdb.com/title/tt1517268/"
+    },
+    {
+        "id":3,
+      "img_url": "https://m.media-amazon.com/images/M/MV5BODNlMDI5NzEtYzVhZC00M2QxLTlhYjQtNTBmNjkzNzkyOTFlXkEyXkFqcGdeQXVyMTE5MzM5OTQz._V1_FMjpg_UX1000_.jpg",
+      "name": "Oppenheimer",
+      "country": "USA",
+      "genre": "Biography, Drama",
+      "ratings": 4.8,
+      "movie_url": "https://www.imdb.com/title/tt15398776/"
+    },
+    {
+        "id":4,
+      "img_url": "https://m.media-amazon.com/images/M/MV5BZmY2NzBmMGYtZTlhOS00ODQ0LTk3MzEtMGE3MDMzMGZmNzQ5XkEyXkFqcGdeQXVyMTUyNjMwMDMw._V1_FMjpg_UX1000_.jpg",
+      "name": "Killers of the Flower Moon",
+      "country": "USA",
+      "genre": "Crime, Drama",
+      "ratings": 4.6,
+      "movie_url": "https://www.imdb.com/title/tt5537002/"
+    },
+    {
+        "id":5,
+      "img_url": "https://m.media-amazon.com/images/M/MV5BZTc4ZGM1MjktZmFlMi00Yzc1LTg0ZTgtODVlN2JlYmE4ZTcwXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
+      "name": "The Marvels",
+      "country": "USA",
+      "genre": "Action, Adventure",
+      "ratings": 4.3,
+      "movie_url": "https://www.imdb.com/title/tt10676048/"
+    }
+  ]
+  
