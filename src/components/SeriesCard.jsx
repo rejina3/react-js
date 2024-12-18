@@ -8,6 +8,10 @@ export const SeriesCard = ({currEle}) => {
     padding:"0.5rem"
   }
  const ratingClass= ratings>=4.5?"super":"average";
+const handleButtonClick=()=>{
+  const hello=prompt("What is your name:");
+alert(`hi ${hello}  your movie is here enjoy`)
+}
   return (
     <>
     
@@ -20,7 +24,8 @@ export const SeriesCard = ({currEle}) => {
       <p>
        Ratings:<span className={`rating ${ratingClass}`}>{ratings}</span>
       </p>
-      <a href={movie_url}><button style={btn_style}>Watch now</button></a>
+      <a href={movie_url}><button style={btn_style} onClick={()=>handleButtonClick()}>Watch now</button></a>
+
       </div>
       </li>
         

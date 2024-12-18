@@ -31,3 +31,22 @@
     border-radius: 25px;
     color:white;
 }
+
+/* count-numbeer */
+
+.countNumber{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn, .countNumber span{
+   height:50px;
+   width:50px;
+    background-color: aqua;
+    color:black;
+    font-size: 2rem;
+    border:none;
+}
+.countNumber span{
+text-align: center;
+}

@@ -2,7 +2,7 @@
 
 // import './App.css'
 
-import MovieSeries from "./components/Netflix";
+import MovieSeries, { Button, IncrementDecrementButton } from "./components/Netflix";
 import "./components/card.css";
 
 
@@ -15,6 +15,8 @@ export const App=()=> {
     <MovieSeries />
     {/* <ColorCard />
     <ProfileCard /> */}
+    <Button />
+    <IncrementDecrementButton/>
     </section>
     </>
   )
