@@ -50,3 +50,6 @@
 .countNumber span{
 text-align: center;
 }
+.btn{
+    cursor: pointer;
+}

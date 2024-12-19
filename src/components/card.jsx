@@ -8,7 +8,7 @@ const MovieSeries = () => {
   const canWatch = () => {
     return age >= 18 ? "watch now" : "not available";
   };
-
+  
   const handleCheck = () => {
     setAvailability(canWatch());
   };

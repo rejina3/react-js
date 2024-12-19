@@ -9,8 +9,15 @@ export const SeriesCard = ({currEle}) => {
   }
  const ratingClass= ratings>=4.5?"super":"average";
 const handleButtonClick=()=>{
-  const hello=prompt("What is your name:");
-alert(`hi ${hello}  your movie is here enjoy`)
+  const hello=prompt("What's your age");
+  if (hello<18){
+alert("sorry, you are not eligible to watch this movie");
+event.preventDefault();
+
+  }
+  else{
+    alert("Enjoy your movie!");
+  }
 }
   return (
     <>
